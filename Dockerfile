@@ -8,6 +8,6 @@ RUN npm install -g @mockoon/cli
 
 COPY . .
 
-EXPOSE 3001
+EXPOSE 8080
 
 CMD [ "npm", "start" ]
