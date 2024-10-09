@@ -5,6 +5,6 @@
     "start": "mockoon-cli start --data mock-api.json --port 3001"
   },
   "dependencies": {
-    "mockoon-cli": "^1.15.0"
+    "@mockoon/cli": "^4.0.0"
   }
 }
