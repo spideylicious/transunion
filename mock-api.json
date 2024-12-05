@@ -1,6 +1,6 @@
 {
   "uuid": "1134f33b-6c6b-4b5e-b58c-fbbb276875f9",
-  "lastMigration": 32,
+  "lastMigration": 33,
   "name": "Transunion",
   "endpointPrefix": "",
   "latency": 0,
@@ -32,14 +32,14 @@
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantFirstName",
               "value": "Anna",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantLastName",
               "value": "Allistar",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
@@ -73,14 +73,14 @@
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantFirstName",
               "value": "Bruno",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantLastName",
               "value": "Beans",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
@@ -114,14 +114,14 @@
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantFirstName",
               "value": "Childe",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantLastName",
               "value": "Chads",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
@@ -155,14 +155,14 @@
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantFirstName",
               "value": "Dino",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantLastName",
               "value": "Delmundo",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
@@ -196,14 +196,14 @@
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantFirstName",
               "value": "Elle",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantLastName",
               "value": "Elly",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
@@ -237,14 +237,14 @@
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantFirstName",
               "value": "Fey",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantLastName",
               "value": "Franks",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
@@ -278,14 +278,14 @@
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantFirstName",
               "value": "Grey",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantLastName",
               "value": "Gizon",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
@@ -319,14 +319,14 @@
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantFirstName",
               "value": "Juan",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
               "modifier": "Fields.Applicants_IO.Applicant.ApplicantLastName",
               "value": "Pedro",
               "invert": false,
-              "operator": "equals"
+              "operator": "regex_i"
             },
             {
               "target": "body",
@@ -363,7 +363,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "06f9e1b0-66eb-40f4-859f-8958d3a025e2",
@@ -427,7 +429,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     }
   ],
   "rootChildren": [
