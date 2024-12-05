@@ -387,7 +387,7 @@
             {
               "target": "body",
               "modifier": "",
-              "value": "grant_type=password&username=Globe_UAT&password=Globe_PassUAT@06112024!!",
+              "value": "grant_type=password&username=Globe_UAT&password=GLOBEnewpass@2024!!",
               "invert": false,
               "operator": "equals"
             }
@@ -414,7 +414,7 @@
             {
               "target": "body",
               "modifier": "",
-              "value": "grant_type=password&username=Globe_UAT&password=Globe_PassUAT@06112024!!",
+              "value": "grant_type=password&username=Globe_UAT&password=GLOBEnewpass@2024!!",
               "invert": true,
               "operator": "equals"
             }
